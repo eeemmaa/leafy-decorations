@@ -40,11 +40,15 @@ html {
   background-image: linear-gradient(to bottom, transparent, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("..images/banner.jpg");
   background-size: auto, cover;
   background-position: bottom, bottom center;
-
 }
 
 .banner-content {
-
+  color: #fff;
+  padding-top: 300px;
+  background-image: url("..images/two-leaves.svg");
+  background-size: 115px;
+  background-position: 1em 8.5em;
+  background-repeat: no-repeat;
 }
 
 @media only screen and (min-width: 60em) {
